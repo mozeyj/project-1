@@ -67,6 +67,18 @@ nav {
     top: auto;
     width: 100%;
 }
+
+.bg-container {
+    position: relative;
+    top: 0;
+}
+
+.bg-image {
+    background-image: url(./lavender.jpg);
+    object-fit: scale-down;
+    width: 100%;
+}
+
 .custom-shape-divider-top-1709002942 {
     position: absolute;
     top: 0;
