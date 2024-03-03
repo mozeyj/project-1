@@ -28,6 +28,14 @@
     font-size: 4rem;
 }
 
+.urbanist-small {
+    font-family: "Urbanist", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: light;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
 .cormorant-large {
     font-family: "Cormorant", serif;
     font-optical-sizing: auto;
@@ -82,6 +90,10 @@
     background-color: #738833;
 }
 
+body {
+    overflow-x: hidden;
+}
+
 nav {
     font-size: 1.25rem;
 }
@@ -97,13 +109,7 @@ nav {
     width: 100%;
 }
 
-/* .bg-image {
-    background-image: url(./images/lavender.jpg);
-    object-fit: fill;
-    width: 100%;
-} */
-
-.custom-shape-divider-top-1709002942 {
+.custom-shape-divider-top-1709433486 {
     position: absolute;
     top: 0;
     left: 0;
@@ -112,14 +118,14 @@ nav {
     line-height: 0;
 }
 
-.custom-shape-divider-top-1709002942 svg {
+.custom-shape-divider-top-1709433486 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 150px;
 }
 
-.custom-shape-divider-top-1709002942 .shape-fill {
+.custom-shape-divider-top-1709433486 .shape-fill {
     fill: #738833;
 }
 
@@ -128,7 +134,7 @@ li {
     margin: .3rem;
 }
 
-.custom-shape-divider-bottom-1709083197 {
+.custom-shape-divider-bottom-1709433450 {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -138,15 +144,14 @@ li {
     transform: rotate(180deg);
 }
 
-.custom-shape-divider-bottom-1709083197 svg {
+.custom-shape-divider-bottom-1709433450 svg {
     position: relative;
     display: block;
     width: calc(100% + 1.3px);
     height: 150px;
-    
 }
 
-.custom-shape-divider-bottom-1709083197 .shape-fill {
+.custom-shape-divider-bottom-1709433450 .shape-fill {
     fill: #738833;
 }
 
@@ -156,6 +161,11 @@ li {
     vertical-align: middle;
     padding: 2rem;
     margin: 1rem;
+}
+
+.heading {
+    text-align: center;
+    margin-top: 2rem !important;
 }
 
 /* Carousel CSS */
@@ -170,6 +180,28 @@ li {
     align-items: center;
     text-align: center;
     max-width: 50vw;
+}
+
+.container img {
+    max-width: 45vw;
+    position: relative;
+    border-radius: 1.25rem;
+    text-align: center;
+    align-items: center;
+    margin-left: 3rem;
+}
+
+.florist {
+
+}
+
+.border {
+    border-color: #fefaf9;
+    border-width: 1rem;
+}
+
+.heading {
+    text-align: right;
 }
 
 .slider-wrapper {
